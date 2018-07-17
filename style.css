@@ -1,0 +1,59 @@
+body {
+	width: 1200px;
+	margin: auto;
+	background-color: #464646;
+	color: #d4af37;
+	font-family: 'News Cycle', sans-serif;
+}
+
+/*
+Header
+*/
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+	width: 800;
+	margin: auto;
+}
+
+article {
+	display: inline-block;
+	border: 1px solid #d4af37;
+	width: 240px;
+	margin: 10px;
+}
+
+
+
+.main-nav li {
+	display: inline-block;
+	margin: auto;
+	width: 150px;
+	text-align: center;
+}
+
+.main-nav {
+	margin: auto;
+	width: 600px;
+	align-items: center;
+}
+
+
+.event-item {
+	border-style: solid;
+	border: 25px;
+	border-color: yellow;
+}
+
+#upcoming-events {
+	width: 800px;
+}
